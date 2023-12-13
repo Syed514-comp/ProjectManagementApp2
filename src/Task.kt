@@ -9,7 +9,7 @@ class Task {
     fun showTasks(projectName: String) {
         val taskWindow = JFrame("$projectName Tasks")
         taskWindow.defaultCloseOperation = JFrame.DISPOSE_ON_CLOSE
-        taskWindow.size = Dimension(800, 600)
+        taskWindow.size = Dimension(1800, 1600)
 
         val contentPane = JPanel(null)
         taskWindow.contentPane = contentPane
